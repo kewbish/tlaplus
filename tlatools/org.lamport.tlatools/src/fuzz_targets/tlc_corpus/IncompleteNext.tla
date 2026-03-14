@@ -1,0 +1,12 @@
+--------------------------- MODULE IncompleteNext ---------------------------
+EXTENDS Integers, TLC
+
+VARIABLES x, y
+
+Spec == (x=0) /\ (y=0) /\ [][x'=x+1]_<<x,y>>
+=============================================================================
+
+----- CONFIG IncompleteNext -----
+SPECIFICATION
+Spec
+====

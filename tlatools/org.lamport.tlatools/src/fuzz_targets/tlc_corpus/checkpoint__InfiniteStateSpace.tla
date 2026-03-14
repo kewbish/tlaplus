@@ -1,0 +1,12 @@
+------------------------------ MODULE InfiniteStateSpace ------------------------------
+EXTENDS Naturals
+
+VARIABLES x,y
+
+Spec == x = 0 /\ y \in 1..1000 /\ [][x'= x + 1 /\ UNCHANGED y]_<<x,y>>
+=============================================================================
+
+----- CONFIG InfiniteStateSpace -----
+SPECIFICATION
+Spec
+====

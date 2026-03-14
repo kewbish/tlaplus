@@ -1,0 +1,11 @@
+--------------------------- MODULE InitEvalOrderBasic ---------------------------
+VARIABLES x, y
+
+Spec == /\ (y=0) /\ (x=0) /\ (y = x)
+        /\ [][UNCHANGED <<x,y>>]_<<x,y>>
+=============================================================================
+
+----- CONFIG InitEvalOrderBasic -----
+SPECIFICATION
+Spec
+====
