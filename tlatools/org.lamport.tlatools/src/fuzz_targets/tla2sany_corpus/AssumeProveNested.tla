@@ -1,0 +1,3 @@
+---- MODULE AssumeProveNested ----
+THEOREM ASSUME ASSUME TRUE PROVE TRUE PROVE TRUE
+====

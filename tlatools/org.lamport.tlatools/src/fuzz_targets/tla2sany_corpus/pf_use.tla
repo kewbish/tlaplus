@@ -1,0 +1,10 @@
+---- MODULE pf_use ----
+THEOREM TRUE
+PROOF
+  <1>1. TRUE
+    BY DEF TRUE
+  <1>2. USE DEF TRUE
+  <1>3. HIDE DEF TRUE
+  <1>q. QED
+    OBVIOUS
+====

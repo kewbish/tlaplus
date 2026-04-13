@@ -1,0 +1,3 @@
+---- MODULE AssumeProveBasic ----
+THEOREM ASSUME TRUE PROVE TRUE
+====

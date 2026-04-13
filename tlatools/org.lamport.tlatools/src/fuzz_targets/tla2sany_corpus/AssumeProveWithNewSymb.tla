@@ -1,0 +1,3 @@
+---- MODULE AssumeProveWithNewSymb ----
+THEOREM ASSUME NEW x, CONSTANT y, VARIABLE z PROVE TRUE
+====
